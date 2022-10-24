@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: "Gill Sans", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0 0 10rem 0;
+}
+
+#meter {
+	font-size: 8rem;
+}
+
+.btn-start {
+	margin: 10rem 0 0 0;
+	display: block;
+	width: 20rem;
+	height: 4rem;
+	color: white;
+	background-color: blue;
+	font-size: 2rem;
+}
+
+.btn-stop {
+	margin: 10rem 0 0 0;
+	display: block;
+	width: 20rem;
+	height: 4rem;
+	color: white;
+	background-color: red;
+	font-size: 2rem;
+}
+
+.btn-refresh {
+	margin: 1rem 0 0 0;
+	display: block;
+	width: 20rem;
+	height: 4rem;
+	color: white;
+	background-color: orange;
+	font-size: 2rem;
+}
